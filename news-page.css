@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+*{box-sizing: border-box;}
+body{
+    margin: 0%;
+    padding: 0%;
+    height: 690px;
+    font-family: Inter;
+    overflow-x: hidden;
+}
+
+
+/* nav-bar */
+
+.navbar-img{
+    width: 50px;
+    margin-left: 45px;
+}
+.nav-link{
+    color:  hsl(236, 13%, 42%);
+    margin-right: 30px;
+
+}
+.nav-link:hover{
+    color: hsl(5, 85%, 63%);
+}
+
+.navbar-nav{
+    margin-left: 47%;
+}
+
+
+/* Section */
+
+.intro{
+    margin-left: 35px;
+}
+ .col-md-8{
+   margin-top: 30px;
+}
+.faq{
+    text-align: left;
+    background-color: hsl(240, 100%, 5%);
+    color:  hsl(36, 100%, 99%);
+    margin-top: 29px;
+    width: 270px;
+    padding-top:40px;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-right: 20px;
+}
+.faq h4{
+    color:  hsl(35, 77%, 62%);
+}
+.faq h5:hover{
+color:  hsl(35, 77%, 62%);
+cursor: pointer;
+}
+
+button{
+    font-size: 17px;
+    width: 150px;
+    background-color: hsl(5, 85%, 63%);
+    color:  hsl(36, 100%, 99%);
+    border: none;
+}
+button:hover{
+    background-color:   hsl(240, 100%, 5%);
+    color:  hsl(36, 100%, 99%);
+}
+.web-3{
+    width: 100%;
+}
+.web3-mobile{
+    display: none;
+}
+.Read{
+    text-align: left;
+    
+   
+}
+.bright{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 45px;
+    text-align: left;
+    color:  hsl(240, 100%, 5%);
+}
+
+
+
+/* foot-section */
+
+.foot-img{
+    width: 75px;
+  float: left;
+  margin-right: 20px;
+}
+.foot{
+    margin-top: 40px;
+    margin-left: 55px;
+}
+.foot .col-md-4 {
+    width: 330px;
+}
+
+ h6{
+    color: hsl(240, 100%, 5%); 
+    font-weight: 700;
+}
+ h6:hover{
+    color:  hsl(5, 85%, 63%);
+    cursor: pointer;
+}
+
+
+p{
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+}
+span{
+    font-size: 20px;
+    font-weight: 700;
+    color: hsl(236, 13%, 42%);
+}
+
+@media screen and (max-width:991px) {
+  
+    .bright{
+        margin-left: 10px;
+    }
+   
+    .web-3{
+        display: none;
+    }
+    .web3-mobile{
+        display: block;
+        width:83%;
+        margin-left: 10px;
+    }
+    .faq{
+        margin-left: 20px;
+    }
+    .Read{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .navbar-toggler{
+        margin-right:262px;
+        width: 60px;
+    }
+    .navbar-nav{
+        text-align: right;
+        margin-right: 262px;
+    }
+}
+@media screen and (max-width:767px)  {
+    .navbar-toggler{
+        margin-right:38px;
+        
+    }
+    .navbar-nav{
+        margin-right:49px;
+        
+    }
+}
+@media screen and (max-width:450px)  {
+   
+    .navbar-toggler{
+        margin-right:20px;
+        
+    }
+   
+    .navbar-nav{
+        margin-right:49px;
+        
+    }
+}
