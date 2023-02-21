@@ -6,15 +6,11 @@ body{
     height: 690px;
     font-family: Inter;
     overflow-x: hidden;
+    overflow-y: auto;
 }
 
 
-/* nav-bar */
 
-.navbar-img{
-    width: 50px;
-    margin-left: 45px;
-}
 .nav-link{
     color:  hsl(236, 13%, 42%);
     margin-right: 30px;
@@ -25,16 +21,14 @@ body{
 }
 
 .navbar-nav{
-    margin-left: 47%;
+    margin-left: 587px;
 }
 
 
 /* Section */
 
-.intro{
-    margin-left: 35px;
-}
- .col-md-8{
+
+ .eight{
    margin-top: 30px;
 }
 .faq{
@@ -97,12 +91,14 @@ button:hover{
 }
 .foot{
     margin-top: 40px;
-    margin-left: 55px;
+    margin-left: 10px;
 }
 .foot .col-md-4 {
-    width: 330px;
+    width: 400px;
 }
-
+.foot-gap{
+    margin-left: 90px;
+}
  h6{
     color: hsl(240, 100%, 5%); 
     font-weight: 700;
@@ -123,48 +119,124 @@ span{
     color: hsl(236, 13%, 42%);
 }
 
-@media screen and (max-width:991px) {
-  
+@media screen and (min-width:1024px) {
+    body{
+        width: 994px;
+        margin: 0 auto 0 auto;
+    }
+    .navbar-nav{
+        margin-left: 380px;
+    }
+    .web-3{
+        width: 100%;
+    }
+   
     .bright{
         margin-left: 10px;
     }
+    .foot-lenght-1{
+        width:300px;
+    }
+    .foot-lenght-2{
+        width:300px;
+    }
+    .foot-lenght-3{
+        width:300px;
+    }
+    .foot-gap-3{
+        margin-left: -25px;
+    }
+   .foot-gap{
+        margin-left: 10px;
+   }
+   .foot .col-md-4 {
+    width: 350px;
+}
+    .Read{
+        margin-left: 10px;
+        margin-top: 10px;
+        width: 250px;
+    }
    
+}
+@media screen and (max-width:768px)  {
+    body{
+        width: 738px;
+        margin: auto;
+    }
+    .web-3{
+        width: 155%;
+        margin-left: 10px;
+    }
+    .bright{
+        margin-left: 10px;
+    }
+    .Read{
+        
+        margin-left: 10px;
+    }
+   .foot{
+    margin-left: 10px;
+    
+   }
+   .foot-lenght-1{
+    margin-left: -20px;
+   }
+   .foot-lenght-2{
+    margin-left: -20px;
+   }
+   .foot-lenght-3{
+    margin-left: -20px;
+   }
+    .navbar-toggler{
+        margin-right: -10px;
+        width: 60px;
+    }
+    .navbar-nav{
+        margin-left: 10px;
+        
+    }
+    
+}
+
+/* MOBILE */
+@media screen and (max-width:375px)  {
+    body{
+        width:345px;
+       margin-left: 15px;
+    }
     .web-3{
         display: none;
     }
     .web3-mobile{
         display: block;
-        width:83%;
+        width:100%;
         margin-left: 10px;
-    }
-    .faq{
-        margin-left: 20px;
-    }
-    .Read{
-        margin-left: 10px;
-        margin-top: 10px;
+       
     }
     .navbar-toggler{
-        margin-right:262px;
-        width: 60px;
-    }
-    .navbar-nav{
-        text-align: right;
-        margin-right: 262px;
-    }
-}
-@media screen and (max-width:767px)  {
-    .navbar-toggler{
-        margin-right:38px;
+        margin-right:20px;
         
     }
+   
     .navbar-nav{
         margin-right:49px;
         
-    }
+    } 
 }
-@media screen and (max-width:450px)  {
-   
+@media screen and (max-width:425px)  {
+    body{
+        width:395px;
+        margin: auto;
+    }
+    .web-3{
+        display: none;
+    }
+    .web3-mobile{
+        display: block;
+        width:100%;
+        margin-left: 10px;
+    }
     .navbar-toggler{
         margin-right:20px;
         
